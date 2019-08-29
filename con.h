@@ -36,3 +36,8 @@ char getche(void)
 {
   return getch_(1);
 }
+
+void clrscr(void)
+{
+    system("clear");
+}
