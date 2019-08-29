@@ -26,6 +26,19 @@ In your C/C++ code just include "con.h" as follows :
 #include "con.h"
 ```
 
+And then use regular conio.h functions as usual like:
+
+```c++
+int x;
+x = getch();
+```
+
+or
+
+```c++
+clrscr();
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
